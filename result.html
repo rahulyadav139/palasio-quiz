@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://palasio-designs.netlify.app/style.css"
+    />
+    <link rel="stylesheet" href="./shared.css" />
+    <link rel="stylesheet" href="./result.css" />
+    <script defer src="./app.js"></script>
+  </head>
+  <body>
+    <header class="header shadow">
+      <div class="brand">
+        <span class="brand__logo"><i class="bi bi-hurricane"></i></span>
+        <span class="brand__text">PALASIO<br />QUIZ </span>
+      </div>
+
+      <ul>
+        <li>
+          <div class="theme-toggle">
+            <input
+              type="checkbox"
+              class="theme-toggle__checkbox"
+              id="theme-toggle"
+            />
+            <label class="theme-toggle__label" for="theme-toggle">
+              <span> <i class="fas fa-moon"></i></span>
+              <span> <i class="fas fa-sun"></i></span>
+              <span class="ball"></span>
+            </label>
+          </div>
+        </li>
+        <li>
+          <button class="btn primary rounded-edge">Logout</button>
+        </li>
+      </ul>
+    </header>
+    <main class="main shadow">
+      <div class="result-summary">
+        <h1 class="heading-4 text-center">History Quiz Result</h1>
+        <p class="text-large text-center">Better Luck Next Time</p>
+        <h2 class="heading-5 text-center">Score:</h2>
+        <div class="heading-2 text-center">02/20</div>
+        <a href="./dashboard.html">
+          <button class="btn primary rounded-edge">Dashboard</button>
+        </a>
+      </div>
+      <div class="hr-line fad"></div>
+      <div class="question-answers">
+        <div class="question-answer">
+          <div class="question-answer__head">
+            <p class="text-large">Question: 1</p>
+            <p class="text-large incorrect-answer-score">Score: 0</p>
+          </div>
+          <h2 class="heading-5">
+            On which major religious festival did William the Conqueror choose
+            to be crowned?
+          </h2>
+          <div class="question-answer__answers">
+            <div class="answer">Ester Sunday</div>
+            <div class="answer">Epiphany</div>
+            <div class="answer incorrect-answer">All Souls’ Day</div>
+            <div class="answer correct-answer">Christmas Day</div>
+          </div>
+        </div>
+        <div class="hr-line grey solid"></div>
+        <div class="question-answer">
+          <div class="question-answer__head">
+            <p class="text-large">Question: 2</p>
+            <p class="text-large correct-answer-score">Score: 10</p>
+          </div>
+          <h2 class="heading-5">
+            On which major religious festival did William the Conqueror choose
+            to be crowned?
+          </h2>
+          <div class="question-answer__answers">
+            <div class="answer">Ester Sunday</div>
+            <div class="answer">Epiphany</div>
+            <div class="answer">All Souls’ Day</div>
+            <div class="answer correct-answer">Christmas Day</div>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
