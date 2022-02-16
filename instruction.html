@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://palasio-designs.netlify.app/style.css"
+    />
+    <link rel="stylesheet" href="./shared.css" />
+    <link rel="stylesheet" href="./instruction.css" />
+    <script defer src="./app.js"></script>
+  </head>
+  <body>
+    <header class="header shadow">
+      <div class="brand">
+        <span class="brand__logo"><i class="bi bi-hurricane"></i></span>
+        <span class="brand__text">PALASIO<br />QUIZ </span>
+      </div>
+
+      <ul>
+        <li>
+          <div class="theme-toggle">
+            <input
+              type="checkbox"
+              class="theme-toggle__checkbox"
+              id="theme-toggle"
+            />
+            <label class="theme-toggle__label" for="theme-toggle">
+              <span> <i class="fas fa-moon"></i></span>
+              <span> <i class="fas fa-sun"></i></span>
+              <span class="ball"></span>
+            </label>
+          </div>
+        </li>
+        <li>
+          <button class="btn primary rounded-edge">Logout</button>
+        </li>
+      </ul>
+    </header>
+    <main class="main shadow">
+      <h1 class="main__title heading-3">History Quiz</h1>
+      <p class="text-grey">Read the following instructions</p>
+      <div class="category">
+        <div class="category__image">
+          <img
+            class="img-responsive"
+            src="./Assets/history-image.webp"
+            alt="history"
+          />
+        </div>
+        <div class="category__detail flex col space-around">
+          <div class="flex space-between align-center">
+            <p class="heading-5">Date:</p>
+            <p class="heading-6">12-Jan-22</p>
+          </div>
+          <div class="flex space-between align-center">
+            <p class="heading-5">Time Limit:</p>
+            <p class="heading-6">15Min</p>
+          </div>
+          <div class="flex space-between align-center">
+            <p class="heading-5">Questions:</p>
+            <p class="heading-6">20</p>
+          </div>
+          <div class="flex space-between align-center">
+            <p class="heading-5">Points:</p>
+            <p class="heading-6">20</p>
+          </div>
+        </div>
+      </div>
+      <div class="hr-line fad"></div>
+      <div class="instructions">
+        <h2 class="heading-4">Instructions:</h2>
+        <ol class="styled-list ordered">
+          <li>This quiz consists of 5 multiple-choice questions.</li>
+          <li>
+            To be successful with the quizzes, it’s important to be conversant
+            with the topics.
+          </li>
+          <li>Each multiple choice question has only one correct answer.</li>
+          <li>To win the quiz you need to score more than 70%.</li>
+          <li>
+            To start, click the Start button. When finished, click the Submit
+            button.
+          </li>
+        </ol>
+      </div>
+      <div class="flex end">
+        <a href="./quiz.html">
+          <button class="btn rounded-edge primary">Start Quiz</button>
+        </a>
+      </div>
+    </main>
+  </body>
+</html>
