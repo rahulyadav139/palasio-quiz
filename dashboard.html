@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://palasio-designs.netlify.app/style.css"
+    />
+    <link rel="stylesheet" href="./shared.css" />
+    <link rel="stylesheet" href="./dashboard.css" />
+    <script defer src="./app.js"></script>
+  </head>
+  <body>
+    <header class="header shadow">
+      <div class="brand">
+        <span class="brand__logo"><i class="bi bi-hurricane"></i></span>
+        <span class="brand__text">PALASIO<br />QUIZ </span>
+      </div>
+
+      <ul>
+        <li>
+          <div class="theme-toggle">
+            <input
+              type="checkbox"
+              class="theme-toggle__checkbox"
+              id="theme-toggle"
+            />
+            <label class="theme-toggle__label" for="theme-toggle">
+              <span> <i class="fas fa-moon"></i></span>
+              <span> <i class="fas fa-sun"></i></span>
+              <span class="ball"></span>
+            </label>
+          </div>
+        </li>
+        <li>
+          <button class="btn primary rounded-edge">Logout</button>
+        </li>
+      </ul>
+    </header>
+    <main class="main shadow">
+      <div class="dashboard">
+        <div class="dashboard__avatar avatar large">
+          <img src="./Assets/shahrukhkhan.webp" alt="sample" />
+        </div>
+        <div class="dashboard__info">
+          <h1 class="info__user">Shahrukh Khan</h1>
+          <h5 class="info__current-league">Bronze League</h5>
+          <div class="info__progress-bar">
+            <div class="progress-bar__bg"></div>
+          </div>
+          <div class="info__activity-items">
+            <div class="activity__item">
+              <div class="icon medium square rounded-corner primary">
+                <i class="fas fa-flag"></i>
+              </div>
+              <div class="activity__item__stat">
+                <div class="stat__number">1</div>
+                <div class="stat__title">Quiz Passes</div>
+              </div>
+            </div>
+            <div class="activity__item">
+              <div class="icon medium square rounded-corner primary">
+                <i class="fas fa-stopwatch"></i>
+              </div>
+              <div class="activity__item__stat">
+                <div class="stat__number">25 Min</div>
+                <div class="stat__title">Fastest Time</div>
+              </div>
+            </div>
+            <div class="activity__item">
+              <div class="icon medium square rounded-corner primary">
+                <i class="fas fa-check-circle"></i>
+              </div>
+              <div class="activity__item__stat">
+                <div class="stat__number">20</div>
+                <div class="stat__title">Correct Answers</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="hr-line fad"></div>
+      <div class="featured">
+        <div class="league-board">
+          <h2 class="league-board__title heading-5">League Board</h2>
+          <div class="leagues">
+            <div class="league">
+              <div class="avatar small">
+                <img src="./Assets/Season_2022_-_Diamond.png" alt="diamond" />
+              </div>
+              <div class="heading-6">Diamond League</div>
+
+              <div class="activity__item__stat">
+                <div class="stat__number">125</div>
+                <div class="stat__title">Correct Answers</div>
+              </div>
+            </div>
+            <div class="league">
+              <div class="avatar small">
+                <img src="./Assets/Season_2022_-_Platinum.png" alt="platinum" />
+              </div>
+              <div class="heading-6">Platinum League</div>
+
+              <div class="activity__item__stat">
+                <div class="stat__number">100</div>
+                <div class="stat__title">Correct Answers</div>
+              </div>
+            </div>
+            <div class="league">
+              <div class="avatar small">
+                <img src="./Assets/Season_2022_-_Gold.png" alt="gold" />
+              </div>
+              <div class="heading-6">Gold League</div>
+
+              <div class="activity__item__stat">
+                <div class="stat__number">75</div>
+                <div class="stat__title">Correct Answers</div>
+              </div>
+            </div>
+            <div class="league">
+              <div class="avatar small">
+                <img src="./Assets//Season_2022_-_Silver.png" alt="silver" />
+              </div>
+              <div class="heading-6">Silver League</div>
+
+              <div class="activity__item__stat">
+                <div class="stat__number">50</div>
+                <div class="stat__title">Correct Answers</div>
+              </div>
+            </div>
+            <div class="league current-league">
+              <div class="avatar small">
+                <img src="./Assets/Season_2022_-_Bronze.png" alt="bronze" />
+              </div>
+              <div class="heading-6">Bronze League</div>
+
+              <div class="activity__item__stat">
+                <div class="stat__number">25</div>
+                <div class="stat__title">Correct Answers</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="categories-section">
+          <h2 class="categories-section__title heading-5">
+            Featured Categories
+          </h2>
+          <div class="categories-wrapper">
+            <a href="./instruction.html">
+              <div class="category">
+                <img
+                  class="category__image img-responsive"
+                  src="./Assets/history-image.webp"
+                  alt="history"
+                />
+                <h3 class="category__title heading-6">History</h3>
+              </div>
+            </a>
+            <a href="./instruction.html">
+              <div class="category">
+                <img
+                  class="category__image img-responsive"
+                  src="./Assets/geography-image.webp"
+                  alt="geography"
+                />
+                <h3 class="category__title heading-6">Geography</h3>
+              </div>
+            </a>
+            <a href="./instruction.html">
+              <div class="category">
+                <img
+                  class="category__image img-responsive"
+                  src="./Assets/physics-image.webp"
+                  alt="physics"
+                />
+                <h3 class="category__title heading-6">Physics</h3>
+              </div>
+            </a>
+            <a href="./instruction.html">
+              <div class="category">
+                <img
+                  class="category__image img-responsive"
+                  src="./Assets/environment-image.webp"
+                  alt="environment"
+                />
+                <h3 class="category__title heading-6">Environment</h3>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
