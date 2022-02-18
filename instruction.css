@@ -1,0 +1,38 @@
+.header-dashboard {
+  display: flex;
+  align-items: center;
+  padding: 1rem 2rem;
+  gap: 2rem;
+}
+.header-dashboard button:last-child {
+  margin-left: auto;
+}
+
+.main {
+  width: 100%;
+  max-width: 50rem;
+  margin: 2rem auto;
+  margin-bottom: 5rem;
+  padding: 2rem;
+  border-radius: 1rem;
+}
+.category {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.main .category__image {
+  aspect-ratio: 16/9;
+}
+
+.main > p {
+  margin-bottom: 1rem;
+}
+.styled-list {
+  margin-left: 1.5rem;
+}
+.styled-list li {
+  background: transparent;
+}
+.dark-theme .styled-list li {
+  background: transparent;
+}
