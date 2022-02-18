@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://palasio-designs.netlify.app/style.css"
+    />
+    <link rel="stylesheet" href="./shared.css" />
+    <link rel="stylesheet" href="./quiz.css" />
+    <script defer src="./app.js"></script>
+  </head>
+  <body>
+    <header class="header shadow">
+      <div class="brand">
+        <span class="brand__logo"><i class="bi bi-hurricane"></i></span>
+        <span class="brand__text">PALASIO<br />QUIZ </span>
+      </div>
+
+      <ul>
+        <li>
+          <div class="theme-toggle">
+            <input
+              type="checkbox"
+              class="theme-toggle__checkbox"
+              id="theme-toggle"
+            />
+            <label class="theme-toggle__label" for="theme-toggle">
+              <span> <i class="fas fa-moon"></i></span>
+              <span> <i class="fas fa-sun"></i></span>
+              <span class="ball"></span>
+            </label>
+          </div>
+        </li>
+        <li>
+          <button class="btn primary rounded-edge">Logout</button>
+        </li>
+      </ul>
+    </header>
+    <main class="main shadow">
+      <div class="flex space-between align-center">
+        <div>
+          <h1 class="heading-4">History Quiz</h1>
+          <p class="text-grey">Question 1/5</p>
+        </div>
+        <button class="btn error rounded-edge">End Quiz</button>
+      </div>
+      <div class="quiz">
+        <h2 class="heading-5">
+          On which major religious festival did William the Conqueror choose to
+          be crowned?
+        </h2>
+        <input type="radio" name="answer" id="option-a" />
+        <label for="option-a">Ester Sunday</label>
+        <input type="radio" name="answer" id="option-b" />
+        <label for="option-b">Epiphany</label>
+        <input type="radio" name="answer" id="option-c" />
+        <label for="option-c">All Souls’ Day</label>
+        <input type="radio" name="answer" id="option-d" />
+        <label for="option-d">Christmas Day</label>
+      </div>
+      <div class="flex space-between align-center">
+        <button class="btn primary rounded-edge">Previous</button>
+        <a href="./result.html">
+          <button class="btn primary rounded-edge">Next</button>
+        </a>
+      </div>
+    </main>
+  </body>
+</html>
