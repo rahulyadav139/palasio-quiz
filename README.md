@@ -92,7 +92,7 @@ _Result Page_ https://priceless-kilby-a2aaf1.netlify.app/result.html
 
 ---
 
-![palasio quiz gif](Assets/palasio-quiz.gif)
+![palasio quiz gif](Assets/palasio-quiz-demo.gif)
 
 ---
 
