@@ -6,8 +6,8 @@
 
 Test your knowledge and learn something new with Palasio Quiz!
 
-![Forks](https://img.shields.io/github/forks/rahulyadav139/palasio-designs-component-library)
-![Stars](https://img.shields.io/github/stars/rahulyadav139/palasio-designs-component-library)
+![Forks](https://img.shields.io/github/forks/rahulyadav139/palasio-quiz)
+![Stars](https://img.shields.io/github/stars/rahulyadav139/palasio-quiz)
 
 </div>
 
