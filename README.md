@@ -31,7 +31,7 @@ Test your knowledge and learn something new with Palasio Quiz!
 
 Landing provides users to access quiz. It tells users what is this quiz all about. .
 
-_Homepage_ https://priceless-kilby-a2aaf1.netlify.app/
+_Homepage_ https://palasio-quiz.netlify.app/
 
 ---
 
@@ -39,7 +39,7 @@ _Homepage_ https://priceless-kilby-a2aaf1.netlify.app/
 
 Users need to login to access quiz app if they are member already with account credential like email address and password.
 
-_Login Page_ https://priceless-kilby-a2aaf1.netlify.app/login.html
+_Login Page_ https://palasio-quiz.netlify.app/login.html
 
 ---
 
@@ -47,7 +47,7 @@ _Login Page_ https://priceless-kilby-a2aaf1.netlify.app/login.html
 
 If users are new to palasio quiz they can create an account within seconds with just providing email address, name and password.
 
-_signup Page_ https://priceless-kilby-a2aaf1.netlify.app/signup.html
+_signup Page_ https://palasio-quiz.netlify.app/signup.html
 
 ---
 
@@ -55,7 +55,7 @@ _signup Page_ https://priceless-kilby-a2aaf1.netlify.app/signup.html
 
 Dashboard page provides little perks to users like achievement, league board. Users can choose quiz category according to their interest. It also provides dark theme option.
 
-_Dashboard Page_ https://priceless-kilby-a2aaf1.netlify.app/dashboard.html
+_Dashboard Page_ https://palasio-quiz.netlify.app/dashboard.html
 
 ---
 
@@ -63,7 +63,7 @@ _Dashboard Page_ https://priceless-kilby-a2aaf1.netlify.app/dashboard.html
 
 Quiz without instructions is incomplete. Instruction page fills that gap. It says users to tell about important guidelines. Once you understand the guidelines users are good to attempt quiz.
 
-_Instruction Page_ https://priceless-kilby-a2aaf1.netlify.app/instruction.html
+_Instruction Page_ https://palasio-quiz.netlify.app/instruction.html
 
 ---
 
@@ -71,7 +71,7 @@ _Instruction Page_ https://priceless-kilby-a2aaf1.netlify.app/instruction.html
 
 Here your quiz. It has multiple choice questions. If users want to leave quiz without completing the quiz they can do that by choosing end quiz option.
 
-_Quiz Page_ https://priceless-kilby-a2aaf1.netlify.app/quiz.html
+_Quiz Page_ https://palasio-quiz.netlify.app/quiz.html
 
 ---
 
@@ -79,7 +79,7 @@ _Quiz Page_ https://priceless-kilby-a2aaf1.netlify.app/quiz.html
 
 Result page provides users what is the score of the quiz which they have attempted with correct answers.
 
-_Result Page_ https://priceless-kilby-a2aaf1.netlify.app/result.html
+_Result Page_ https://palasio-quiz.netlify.app/result.html
 
 ---
 
